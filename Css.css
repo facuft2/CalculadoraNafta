@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: chocolate;
+    height: 100%;
+    width: 100%;
+}
+.conten { 
+    border: 2px solid black;
+    border: dotted;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    align-items: center;
+    width: max-content;
+    }
+.stcalculadora {
+    font-family: 'Hammersmith One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 25%;
+    margin: 30px;
+}
+.calcular {
+    margin-top: 5px;
+    background-color:white;
+    border-radius: 60px;
+    border-color: black;
+    display: flex;
+    cursor: crosshair;
+    font-family: 'Hammersmith One', sans-serif,;
+    font-size: 20px;
+    width: max-content;
+}
+
